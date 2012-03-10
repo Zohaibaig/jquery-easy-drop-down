@@ -140,6 +140,34 @@ That's pretty much it- the rest is up to you.</p>
 	<p>... with panel <code>width</code> and <code>min-height</code> options</p>
 
 </div>
+
+<h2>API</h2>
+
+<h4>Methods</h4>
+<code>.dropdown(options); // Initialize</code>  
+<code>.dropdown('show');</code>   
+<code>.dropdown('hide');</code>   
+	
+<h4>Options</h4>
+<table>
+	<tr>
+		<td>callback</td>
+		<td>Function</td>
+	</tr>
+	<tr>
+		<td>width</td>
+		<td>Integer</td>
+	</tr>
+	<tr>
+		<td>maxHeight</td>
+		<td>Integer</td>
+	</tr>
+	
+</table>
+
+
+
+
     
       <h2>Dependencies</h2>
       <p>jQuery</p>
@@ -183,8 +211,6 @@ var callback = function(target) { alert( 'You clicked ' + $(target).attr('id'));
 $('#mydropdown-1').dropdown(); 
 $('#mydropdown-2').dropdown({callback:callback}); 
 $('#mydropdown-3').dropdown({width:'400px', maxHeight:'180px',callback:callback}); 
-// Force one open:
-$('#mydropdown-2').dropdown('show'); 
 
 </script>
 
