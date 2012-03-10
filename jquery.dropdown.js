@@ -38,6 +38,13 @@ appgrinders.github.com/jquery-easy-drop-down
 				var id = $this.attr('id');
 				*/
 				
+				// Only proceed with click-event handler if the plugin
+				// has not already been initialized on this given element:
+				if ( $this.data('initialized') )
+					return;
+				else
+					$this.data('initialized', true);
+				
 				$this.click(function(e) {
 					
 					e.stopPropagation();
