@@ -54,15 +54,16 @@ a.dropdown-button:hover {
 	border: 1px solid #C1C1C1;
 	background:white;
 	/*padding:10px;/**/
-	moz-box-shadow: rgba(200,200,200,0.7) 0 4px 10px -1px;
-	-webkit-box-shadow: rgba(200,200,200,0.7) 0 4px 10px -1px;
-	box-shadow: rgba(200,200,200,0.7) 0 4px 10px -1px;
+
 	/* Border-box model so that padding doesn't affect dimensions. See http://css-tricks.com/box-sizing */
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	
+	moz-box-shadow: 0 0 13px rgba(0,0,0,0.31);
+	-webkit-box-shadow: 0 0 13px rgba(0,0,0,0.31);
 	box-shadow: 0 0 13px rgba(0,0,0,0.31);
+	
 	/*border-radius: 5px;/**/
 }
 
