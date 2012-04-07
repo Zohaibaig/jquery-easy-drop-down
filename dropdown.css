@@ -44,8 +44,9 @@ a.dropdown-button:visited {
 a.dropdown-button:hover {
 	text-decoration:none;
 }
-.dropdown-icon {
+a.dropdown-button img.dropdown-icon {
 	float:right;
+	position:static;
 	margin:8px 0px 4px 10px;
 }
 .dropdown-panel {
