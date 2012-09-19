@@ -84,7 +84,7 @@ appgrinders.github.com/jquery-easy-drop-down
 			return this.each(function() {
 				$(this).find('.dropdown-panel').slideToggle('fast');
 			});	
-		},
+		}
 
 	};
 
